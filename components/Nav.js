@@ -1,9 +1,10 @@
 import Link from "next/link";
 import React from "react";
+import MobileMenu from "./MobileMenu";
 
 const Nav = () => {
   return (
-    <div className="flex justify-between px-10 py-4 text-lg">
+    <div className="flex justify-between items-center px-10 py-4 text-lg">
       <div>
         <Link href={"/"} className="font-semibold text-3xl">
           <span className="text-green-600">K</span>K
@@ -41,6 +42,10 @@ const Nav = () => {
           </Link>
         </li>
       </ul>
+
+      <div className="flex items-center justify-center md:hidden">
+        <MobileMenu />
+      </div>
     </div>
   );
 };

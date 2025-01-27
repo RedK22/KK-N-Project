@@ -5,7 +5,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 ">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 md:py-10 ">
       <div className="flex flex-col lg:flex-row items-center justify-between">
         <div className="lg:w-1/3">
           <Image
@@ -25,7 +25,7 @@ const page = () => {
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-gray-900 mb-4 relative group">
             <span className="text-gray-900">Kritika Khurana</span>
-            <span className="absolute left-0 -bottom-1 w-full h-1 bg-green-600 origin-left scale-x-90"></span>
+            <span className="hidden md:absolute left-0 -bottom-1 w-full h-1 bg-green-600 origin-left scale-x-90"></span>
           </h1>
           <p className="mt-3 md:text-xl text-md text-gray-500 max-w-2xl mx-auto lg:mx-0">
             I&apos;m Kritika, a{" "}
