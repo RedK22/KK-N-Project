@@ -9,7 +9,7 @@ const Nav = () => {
           <span className="text-green-600">K</span>K
         </Link>
       </div>
-      <ul>
+      <ul className="hidden md:block">
         <li className="flex gap-8">
           <Link
             className="text-gray-500 hover:text-black transition-colors relative group"
