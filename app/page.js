@@ -42,7 +42,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-32 py-10 ">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-32 py-10">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className="lg:w-1/3">
             <Image
@@ -54,7 +54,7 @@ export default function Home() {
               priority
             />
           </div>
-          <div className="lg:w-1/2 lg:pr-12 text-center lg:text-left mb-8 lg:mb-0">
+          <div className="lg:w-1/2 lg:pr-12 text-center lg:text-left mb-8 lg:mb-0 mt-10 md:mt-0">
             <div className="inline-block mb-2 px-4 py-2 bg-green-100 rounded-full">
               <p className="uppercase text-green-600 tracking-wide font-semibold text-sm">
                 ABOUT ME
